@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(224, 234, 187, 0.914);
+}
+h1{
+   margin: 50px auto;
+   font-size: 50px;
+}
+#loader{
+    height: 150px;
+    width: 150px;
+    margin: 300px auto;
+    border-radius: 50%;
+    border: 25px solid rgb(215, 215, 215);
+    border-top: 25px solid rgb(52, 110, 186);
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
